@@ -1,0 +1,8 @@
+---
+- name: test
+	hosts: localhost
+
+	tasks:
+		- name: print hi
+			debug:
+				msg: "Hello World !"
